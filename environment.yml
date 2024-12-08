@@ -1,0 +1,10 @@
+name: levoit-600s-switch
+channels:
+- defaults
+dependencies:
+- python=3.11
+- pip
+- pip:
+  - python-dotenv
+  - pyvesync
+  - click
